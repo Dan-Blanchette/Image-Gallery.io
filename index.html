@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Image Gallery</title>
+</head>
+
+<body>
+  <div class="p-3 mb-2 bg-dark text-light" </div>
+    <!-- Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <a class="navbar-brand">IMAGE BUCKET</a>
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            <a class="nav-link" href="#">PHOTOS</a>
+            <a class="nav-link" href="#">BIO</a>
+            <a class="nav-link" href="#">BLOG</a>
+            <a class="nav-link" href="#">CONTACT</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <img
+          src="https://img1.wsimg.com/isteam/ip/2cd4246f-7014-4441-b766-b661e1fe071e/1363190.jpeg/:/rs=w:1240,h:620,cg:true,m/cr=w:1240,h:620"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Forest River" />
+
+        <img src="https://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.1440.jpg"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shaqi_jrvej.jpg/1200px-Shaqi_jrvej.jpg"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Water Fall  " />
+
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img src="https://webneel.com/wallpaper/sites/default/files/images/08-2018/2-nature-wallpaper-grass.1440.jpg"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Plains" />
+
+        <img
+          src="https://webneel.net/file/imagecache/preview/images/5-17/11-kukulkan-typhoon-digital-art-work-by-andantonius.jpg"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Flying Snake" />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+          src="https://webneel.com/daily/sites/default/files/images/daily/04-2013/2-3d-woman-robot-character-design.jpg"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Robot" />
+
+        <img
+          src="https://webneel.com/wallpaper/sites/default/files/images/04-2013/croatian-boat-scenery-wallpaper.1440.jpg"
+          class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+      </div>
+    </div>
+
+</body>
+
+</html>
