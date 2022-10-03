@@ -1,3 +1,20 @@
 .container{
    width:500px !important;
 }
+.class_paragraph 
+{
+   color: rgb(3, 79, 221);
+   background-color: #737e76;
+   border: 2px solid rgb(14, 172, 245);
+   padding: 10px;
+}
+
+.green_color {
+   color: green;
+}
+
+.class_header_footer   
+{
+   word-spacing: 30px;
+   font-size: 20px;
+}
